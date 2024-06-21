@@ -102,6 +102,5 @@ function displayResult(){
         button.innerHTML = `${index + 1}a. ${correctanswer}`;
         allCorrectAnswers.appendChild(button)
     })
-
 }
 displayQuestion()
